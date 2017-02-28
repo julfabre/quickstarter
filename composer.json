@@ -1,5 +1,5 @@
 {
-  "name": "drupal/quickstarter",
+  "name": "oki34/quickstarter",
   "type": "drupal-module",
   "description": "quickstarter module",
   "keywords": ["Drupal"],
@@ -33,13 +33,4 @@
   "require-dev":{
     "drupal/devel": "~1.0"
   },
-  "extra": {
-    "installer-paths": {
-      "../../../../web/core": ["type:drupal-core"],
-      "../../../../web/modules/contrib/{$name}": ["type:drupal-module"],
-      "../../../../web/profiles/contrib/{$name}": ["type:drupal-profile"],
-      "../../../../web/themes/contrib/{$name}": ["type:drupal-theme"],
-      "../../../../web/drush/commands/{$name}": ["type:drupal-drush"]
-    }
-  }
 }
