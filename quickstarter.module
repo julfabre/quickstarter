@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains quickstarter.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function quickstarter_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the quickstarter module.
+    case 'help.page.quickstarter':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('quickstarter module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function quickstarter_theme() {
+  return [
+    'quickstarter' => [
+      'template' => 'quickstarter',
+      'render element' => 'children',
+    ],
+  ];
+}

@@ -1,0 +1,17 @@
+name: quickstarter
+type: module
+description: quickstarter module
+core: 8.x
+package: Custom
+dependencies:
+  - admin_toolbar
+  - ctools
+  - field_collection
+  - image_url_formatter
+  - pathauto
+  - token
+  - addtoany
+  - field_group
+  - google_analytics
+  - metatag
+  - paragraphs
