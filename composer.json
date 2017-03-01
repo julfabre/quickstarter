@@ -10,13 +10,7 @@
     "issues": "https://www.drupal.org/project/issues/quickstarter",
     "source": "http://cgit.drupalcode.org/quickstarter"
   },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://packages.drupal.org/8"
-    }
-  ],
-  "require": {
+   "require": {
     "composer/installers": "^1.0.21",
     "drupal/admin_toolbar": "~1.0",
     "drupal/ctools": "~3.0",
